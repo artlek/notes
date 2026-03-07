@@ -24,7 +24,8 @@ To run the application, you need one of the modern, updated web browsers.
 **Additional technologies:** Docker, MariaDB, AI coding assistants <br>
 
 ## Screenshots
-<img height="609" alt="Notes App" src="https://github.com/user-attachments/assets/d0ab1302-7c9f-4d4d-bf13-0f71bb8f7f28" />
-<img height="609" alt="Notes App" src="https://github.com/user-attachments/assets/3dd3f2a8-e837-4574-aac4-9dd4803d78a9" />
-<img height="609" alt="Notes App" src="https://github.com/user-attachments/assets/ac46d011-e185-4fa7-a6ef-686eced9bc75" />
-<img height="609" alt="Notes App" src="https://github.com/user-attachments/assets/5311e237-ea35-4653-b358-adab0ff5fef5" />
+<img height="624" alt="Notes App" src="https://github.com/user-attachments/assets/6e298f7c-cd05-4268-9f7f-3d64d924a2e2" />
+<img height="624" alt="Notes App" src="https://github.com/user-attachments/assets/90c65cdf-d3c8-4cab-a028-befae28123db" />
+<img height="624" alt="Notes App" src="https://github.com/user-attachments/assets/1a87e655-1f9f-4040-b20f-d92ab60c9ba3" />
+<img height="624" alt="Notes App" src="https://github.com/user-attachments/assets/4b2e404f-9678-4dce-9e9b-44972412c116" />
+
