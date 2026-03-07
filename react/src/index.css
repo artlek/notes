@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+@font-face {
+    font-family: NotoSansMono;
+    src: url("../fonts/Source_Sans_3/NotoSansMono-Regular.ttf");
+    format: ("ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: SourceSans3Bold;
+    src: url("../fonts/Source_Sans_3/SourceSans3-Bold.ttf");
+    format: ("ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: SourceSans3Regular;
+    src: url("../fonts/Source_Sans_3/SourceSans3-Regular.ttf");
+    format: ("ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: SourceSans3SemiBold;
+    src: url("../fonts/Source_Sans_3/SourceSans3-SemiBold.ttf");
+    format: ("ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: SourceSans3Light;
+    src: url("../fonts/Source_Sans_3/SourceSans3-Light.ttf");
+    format: ("ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: SourceSans3ExtraLight;
+    src: url("../fonts/Source_Sans_3/SourceSans3-ExtraLight.ttf");
+    format: ("ttf");
+    font-display: swap;
+}
+:root {
+    --base-size: 100%;
+}
+
+html {
+    font-size: var(--base-size);
+}
+
+body {
+    font-size: 1rem;
+    transition: font-size 0.2s ease;
+}

@@ -1,0 +1,12 @@
+gesdinet_jwt_refresh_token:
+    refresh_token_class: App\Entity\RefreshToken 
+    return_expiration: true
+    ttl: 2592000
+    ttl_update: true
+    manager_type: doctrine
+    cookie:
+        enabled: true
+        same_site: lax
+        http_only: true
+        secure: true
+        remove_token_from_body: true 
