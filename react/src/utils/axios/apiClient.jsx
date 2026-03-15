@@ -27,7 +27,8 @@ apiClient.interceptors.response.use(
         if (error.response?.status === 401 && !originalRequest._retry && !originalRequest.url.includes('/api/token/refresh')) {
             originalRequest._retry = true;
             try {
-                await apiClient.post('/api/token/refresh');
+                // await apiClient.post('/api/token/refresh');
+                await axios.post(`${API}/api/token/refresh`, {}, { withCredentials: true });
                 return apiClient(originalRequest);
             } catch (refreshError) {
                 return Promise.reject(refreshError);

@@ -7,9 +7,6 @@
 # To list all registered routes, run the following command:
 #   bin/console debug:router
 
-controllers:
-    resource: routing.controllers
-
 api_login_check:
     path: /api/login_check
     methods: [POST]
@@ -19,8 +16,8 @@ api_logout:
 
 gesdinet_jwt_refresh_token:
     path: /api/token/refresh
-    controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController::urlRedirectAction
+    # Używamy wbudowanego kontrolera "nic-nie-rób", bo i tak przejmie to Security
+    controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
     defaults:
-        path: '/api/token/refresh'
-        permanent: false
+        template: 'base.html.twig' # Może być cokolwiek, i tak tam nie dotrze
     methods: [POST]

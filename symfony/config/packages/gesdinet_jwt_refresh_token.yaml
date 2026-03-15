@@ -1,12 +1,15 @@
 gesdinet_jwt_refresh_token:
-    refresh_token_class: App\Entity\RefreshToken 
+    firewall: refresh
+    user_provider: app_user_provider
+    refresh_token_class: App\Entity\RefreshToken
     return_expiration: true
     ttl: 2592000
     ttl_update: true
     manager_type: doctrine
+    user_identity_field: email
     cookie:
         enabled: true
         same_site: lax
         http_only: true
-        secure: true
+        secure: false # false dla localhost
         remove_token_from_body: true 

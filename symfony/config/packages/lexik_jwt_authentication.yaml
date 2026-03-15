@@ -10,7 +10,7 @@ lexik_jwt_authentication:
             path: /
             domain: null
             httpOnly: true
-            secure: true
+            secure: false # ustaw na false tylko jeśli testujesz na czystym http (bez ssl)
 
     token_extractors:
         cookie:
